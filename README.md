@@ -1,5 +1,5 @@
 # stackedit-theme
-> Custom theme plugin for StackEdit
+> Custom theme extension for StackEdit
 
 ## Usage
 **[StackEdit](https://stackedit.io/editor) -> Settings -> Extensions -> UserCustom extension**
