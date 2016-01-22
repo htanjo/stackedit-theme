@@ -7,8 +7,14 @@ body {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.preview-panel {
+  background: #fff;
+  box-shadow: inset 1px 0 rgba(128,128,128,0.15);
+}
+
 #preview-contents {
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 1.6;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -18,7 +24,8 @@ body {
 #preview-contents h4,
 #preview-contents h5,
 #preview-contents h6 {
-  margin: 1.2em 0 0.6em;
+  margin: 1em 0 16px;
+  font-weight: bold;
 }
 
 #preview-contents h1,
@@ -27,7 +34,55 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
+#preview-contents h1 {
+  font-size: 2.25em;
+}
+
+#preview-contents h2 {
+  font-size: 1.75em;
+}
+
+#preview-contents h3 {
+  font-size: 1.5em;
+}
+
+#preview-contents h4 {
+  font-size: 1.25em;
+}
+
+#preview-contents h5 {
+  font-size: 1em;
+}
+
+#preview-contents h6 {
+  font-size: 1em;
+}
+
 #preview-contents ul,
 #preview-contents ol {
   padding-left: 2em;
+}
+
+#preview-contents ul ul,
+#preview-contents ul ol,
+#preview-contents ol ul,
+#preview-contents ol ol {
+  margin-bottom: 0;
+}
+
+#preview-contents li > p {
+  margin-top: 1.1em;
+}
+
+#preview-contents code {
+  font-family:  Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#preview-contents hr {
+  height: 4px;
+  margin: 32px 0;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  background: #e7e7e7;
 }
