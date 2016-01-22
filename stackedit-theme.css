@@ -7,15 +7,28 @@ body {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+#wmd-input > .editor-content {
+  padding-top: 45px;
+}
+
+#wmd-input > .editor-content > :first-child {
+  margin-top: 0;
+}
+
 .preview-panel {
   background: #fff;
   box-shadow: inset 1px 0 rgba(128,128,128,0.15);
 }
 
 #preview-contents {
+  padding-top: 45px;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#preview-contents > :first-child {
+  margin-top: 0 !important;
 }
 
 #preview-contents h1,
