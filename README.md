@@ -12,4 +12,4 @@ userCustom.onReady = function () {
 ```
 
 ## License
-Copyright (c) 2015 Hiroyuki Tanjo. Licensed under the [MIT License](LICENSE).
+Copyright (c) 2015-2016 Hiroyuki Tanjo. Licensed under the [MIT License](LICENSE).
