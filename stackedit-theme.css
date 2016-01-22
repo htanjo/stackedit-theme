@@ -11,17 +11,13 @@ body {
   padding-top: 45px;
 }
 
-#wmd-input > .editor-content > :first-child {
-  margin-top: 0;
-}
-
 .preview-panel {
   background: #fff;
   box-shadow: inset 1px 0 rgba(128,128,128,0.15);
 }
 
 #preview-contents {
-  padding-top: 45px;
+  padding-top: 15px;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
